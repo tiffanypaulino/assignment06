@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 05 - DOM Practice</title>
+    <script src="js/dom-practice.js"></script>
+    <script src="/Assignment 6 JS/js/dom-practice.js"></script>
+    <script>
+
+    document.addEventListener('DOMContentLoaded', btn5);
+
+    function step5(){
+        alert('Step 5 - I have been clicked');
+    }
+
+    function btn5() {
+    let button5 = document.getElementById('btnStep5');
+    button5.addEventListener('click', step5);
+    }
+
+</script>
+</head>
+<body>
+    <!-- Step 1 -->
+<button onclick='step1()'>Click me - Step 1</button>
+
+<!-- Step 2 -->
+<button id="btnStep2" onclick="myFunction()">Click me - Step 2</button>
+
+<!-- Step 3 -->
+<button id="btnStep3">Click me - Step 3</button>
+<!-- <p id="btn3"></p> -->
+
+<!-- Step 4 -->
+<button id="btnStep4">Click me - Step 4</button>
+
+<!-- Step 5 -->
+<button id="btnStep5">Click me - Step 5</button>
+
+<!-- Step 6 -->
+<button><a href="http://www.google.com" id='redirect'>Visit Google - Step 6</a></button>
+
+<!--Step 7  -->
+<!-- <form> -->
+<input type="text" name="input" id="text" placeholder="enter something here - Step 7">
+<button id="step7">Click to Submit - Step 7</button>
+<!-- </form> -->
+
+<!-- Step 8 -->
+<button id="btnStep8">Click Me - Step 8</button>
+
+<!-- Step 9 -->
+<button id='startStep9'>Start - Step 9</button>
+<button id='stopStep9'>Stop - Step 9</button>
+
+<!-- Step 10 -->
+<div>
+<select id="list">
+    <option value="Betagel">Betagel</option>
+    <option value="Biogen">Biogen</option>
+    <option value="Calerase">Calerase</option>
+    <option value="Fibromax C">Fibromax C</option>
+</select>
+<button id="step10">Select - Step 10</button>
+</div>
+
+    
+</body>
+</html>
